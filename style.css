@@ -14,17 +14,20 @@
     padding: 20px;
   }
   
-  .container {
+.container {
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
     background: url('images/background.webp') no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: 43%;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
-  }
+}
+
   
   /* Adding a blur effect */
   .container::before {
