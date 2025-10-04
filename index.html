@@ -1,56 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AOUTREE</title>
-    <link rel="shortcut icon" href="images/bbbbbbb.jpg" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Official IEEE Alexandria University Student Branch (IEEE AOU) - Connect with us through our official links, events, resources, and social media platforms.">
+    <meta name="keywords" content="IEEE AOU, IEEE Alexandria University, IEEE Student Branch, IEEE Egypt, IEEE ALEX, IEEE Links, IEEE Resources, IEEE Events, IEEE Membership, IEEE Technical Activities, IEEE Student Activities, IEEE AOU Links, IEEE AOU Social Media">
+    <meta name="author" content="Webmaster IEEE AOU Lebanon Tony El Chediac">
+    
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="images/1rmv.png">
+
+    <title>IEEE AOU TREE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
     <div class="container">
-      <div class="profile">
-        <img src="images/1.png" alt="Profile Picture" class="profile-pic" />
-        <h1>IEEE AOU LEBANON</h1>
-        <p class="bio">
-        </p>
-      </div>
+        <div class="header">
+            <div class="logo">
+                <div class="pulse"></div>
+                <img src="images/1.png" alt="Profile Picture" class="profile-pic" />
+            </div>
+            <h1 class="name">IEEE AOU</h1>
+            <p class="title">Arab Open University Student Branch</p>
+        </div>
+        
+        <div class="links-container">
+            <a href="https://ieee.org" class="link-item">
+                <i class="fas fa-globe"></i>
+                <span class="link-text">Official IEEE Website</span>
+            </a>
 
-      <div class="links">
-        <a href="https://ieeeaou.github.io/ieee" class="button" target="_blank">
-          <i class="fas fa-link"></i> IEEE AOU
-        </a>
-        <a href="https://whatsapp.com/channel/0029VavRghFFCCoO0GJ0ca2B" class="button" target="_blank">
-          <i class="fa-solid fa-paperclip"></i> IEEE AOU WTSP CHANNEL
-        </a>
-        <a href="https://web.aou.edu.lb/Pages/default.aspx" class="button" target="_blank">
-            <i class="fas fa-university"></i> AOU - Lebanon
-          </a>
-        <a href="https://instagram.com/ieee_aou_lebanon" class="button" target="_blank">
-            <i class="fab fa-instagram"></i> IEEE AOU Instagram
-          </a>
-        <a href="https://instagram.com/aou_lebanon" class="button" target="_blank">
-            <i class="fab fa-instagram"></i> AOU Instagram
-          </a>
-          <a href="https://ieeeaou.github.io/ieee/be-a-member.html" class="button" target="_blank">
-            <i class="fas fa-user"></i> Join Us
-          </a>
-        <a href="https://ieeeaou.github.io/ieee/contact.html" class="button" target="_blank">
-          <i class="fas fa-envelope"></i> Contact Us
-        </a>
-      </div>
+            <a href="https://ieee.aou.edu.lb" class="link-item">
+                <i class="fas fa-rocket"></i>
+                <span class="link-text">Our Website</span>
+            </a>
+            
+            <a href="https://aou.edu.lb" class="link-item">
+                <i class="fas fa-university"></i>
+                <span class="link-text">Arab Open University</span>
+            </a>
+            
+            <a href="https://whatsapp.com/channel/0029VavRghFFCCoO0GJ0ca2B" class="link-item">
+                <i class="fab fa-whatsapp"></i>
+                <span class="link-text">Whatsapp Channel</span>
+            </a>
+            
+            <a href="https://instagram.com/ieee_aou_lebanon" class="link-item">
+                <i class="fab fa-instagram"></i>
+                <span class="link-text">IEEE AOU Instagram</span>
+            </a>
 
-      <div class="footer">
-        <p>
-          © 2024 IEEE AOU LEBANON <br />
-          All Rights Reserved.
-        </p>
-      </div>
+            <a href="https://instagram.com/aou_lebanon" class="link-item">
+                <i class="fab fa-instagram"></i>
+                <span class="link-text">AOU Instagram</span>
+            </a>
+            
+            <a href="https://ieeeaou.github.io/ieee/be-a-member.html" class="link-item">
+                <i class="fas fa-user"></i>
+                <span class="link-text">Join Us</span>
+            </a>
+            
+            <a href="https://ieeeaou.github.io/ieee/contact.html" class="link-item">
+                <i class="fas fa-envelope"></i>
+                <span class="link-text">Contact Us</span>
+            </a>
+            
+        </div>
+        
+        <div class="footer">
+            <p>Follow us on social media</p>
+            <div class="social-icons">
+                <a href="https://instagram.com/ieee_aou_lebanon" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
     </div>
-  </body>
-</html>
 
+    <script>
+        // Add subtle hover effects to links
+        document.querySelectorAll('.link-item').forEach(link => {
+            link.addEventListener('mouseenter', () => {
+                link.style.transform = 'translateY(-3px)';
+            });
+            
+            link.addEventListener('mouseleave', () => {
+                link.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
+</body>
+</html>
